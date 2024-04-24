@@ -1,4 +1,4 @@
-## Getting Started Before run the project
+## Install Node and Dependencies
 ### `npm install`
 ### `npm install @mui/material @emotion/react @emotion/styled`
 ### `npm install @mui/icons-material`
