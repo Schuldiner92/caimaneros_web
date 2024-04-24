@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Card, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import { Box, Card, CardContent, CardMedia, Grid, Typography, Paper } from '@mui/material';
 
 export {
   React,
@@ -9,4 +9,5 @@ export {
   CardMedia,
   Grid,
   Typography,
+  Paper
 };
