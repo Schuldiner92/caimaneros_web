@@ -2,25 +2,25 @@ import { React, Box, Paper, Grid, Typography } from '../imports'
 import placeholder from '../img/s2-placeholder.png';
 import ball from '../img/s2-ball.png';
 
-
-    const EstiloImagen = {
-        position:'flex',
+const Estilos = {
+    imagen: {
+        position: 'flex',
         width: '100%',
         height: 'auto',
-        borderRadius: '8px', // Bordes redondeados
-        border: '1px dashed #000', // Borde en líneas discontinuas 
-        overflow: 'hidden' // Para asegurar que los bordes redondeados se apliquen
-    };
-
-    const EstiloBalon = {
-        width: '50px', // Tamaño del balón
+        borderRadius: '30px',
+        border: '1px dashed #000', //Lineas discontinuas
+        borderColor: "blue",
+        borderWidth: "3px",
+        overflow: 'hidden'
+    },
+    balon: {
+        width: '50px',
         height: '50px',
-        position: 'absolute', // Para posicionar sobre la imagen  
-        bottom: '10px', // Espacio desde el borde inferior
-        right: '10px' // Espacio desde el borde derecho
-    };
-     
-    const EstiloTexto ={        
+        position: 'absolute',
+        bottom: '10px',
+        right: '10px'
+    },
+    texto: {
         color: 'blue',
         textAlign: 'center',
         padding: '20px',
@@ -29,9 +29,9 @@ import ball from '../img/s2-ball.png';
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center'
-    };
+    }
+};
 
-  
 const Seccion2 = () => {
     return (
         <Box sx={{ position: 'relative', p: 2 }}>
@@ -40,18 +40,18 @@ const Seccion2 = () => {
                 <Grid item xs={12} sm={8} md={8}>
                 <Grid container spacing={2}>                    
                     <Grid item xs={4} sm={4} md={4}>
-                    <Paper elevation={3}>
-                        <img src={placeholder} alt="Juego de Volleyball" style={EstiloImagen} />
+                    <Paper elevation={0}>
+                        <img src={placeholder} alt="Juego de Volleyball" style={Estilos.imagen} />
                     </Paper>
                     </Grid>
                     <Grid item xs={4} sm={4} md={4}>
-                    <Paper elevation={3}>
-                        <img src={placeholder} alt="Equipo de Volleyball" style={EstiloImagen} />
+                    <Paper elevation={0}>
+                        <img src={placeholder} alt="Equipo de Volleyball" style={Estilos.imagen} />
                     </Paper>
                     </Grid>
                     <Grid item xs={4} sm={4} md={4}>
-                    <Paper elevation={3}>
-                        <img src={placeholder} alt="Balón de Volleyball" style={EstiloImagen} />
+                    <Paper elevation={0}>
+                        <img src={placeholder} alt="Balón de Volleyball" style={Estilos.imagen} />
                     </Paper>
                     </Grid>
                 </Grid>
@@ -59,10 +59,11 @@ const Seccion2 = () => {
 
                 {/* Contenedor del texto */}
                 <Grid item xs={12} sm={4} md={4}>
-                <Paper elevation={3} style={EstiloTexto}>
+                <Paper elevation={0} style={Estilos.texto}>
                     <Typography variant="h6" component="p">
                         SOMOS EL CLUB DE VOLEIBOL
-                    </Typography>     <Typography variant="h6" component="p">
+                    </Typography>     
+                    <Typography variant="h6" component="p">
                         CAMINEROS DE CÚCUTA, NORTE
                     </Typography>
                     <Typography variant="h6" component="p">
@@ -93,9 +94,9 @@ const Seccion2 = () => {
                 </Grid>
             </Grid>
             
-            <img src={ball} alt="Balón de Volleyball" style={{...EstiloBalon, left: '20px'}} />
-            <img src={ball} alt="Balón de Volleyball" style={{...EstiloBalon, left: '80px'}} />
-            <img src={ball} alt="Balón de Volleyball" style={{...EstiloBalon, left: '140px'}} />
+            <img src={ball} alt="Balón de Volleyball" style={{...Estilos.balon, left: '50px'}} />
+            <img src={ball} alt="Balón de Volleyball" style={{...Estilos.balon, left: '150px'}} />
+            <img src={ball} alt="Balón de Volleyball" style={{...Estilos.balon, left: '250px'}} />
         </Box> 
     );
   };
