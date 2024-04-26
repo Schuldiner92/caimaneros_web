@@ -9,7 +9,7 @@ const Estilos = {
         height: 'auto',
         borderRadius: '30px',
         border: '1px dashed #000', //Lineas discontinuas
-        borderColor: "blue",
+        borderColor: "#1f45ca",
         borderWidth: "3px",
         overflow: 'hidden'
     },
@@ -21,7 +21,7 @@ const Estilos = {
         right: '10px'
     },
     texto: {
-        color: 'blue',
+        color: '#1f45ca',
         textAlign: 'center',
         padding: '20px',
         fontFamily: 'sans-serif',
