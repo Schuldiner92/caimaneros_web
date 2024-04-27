@@ -21,20 +21,7 @@ const StyledPaper = styled(Paper)(({ theme }) => ({
   },
 }));
 
-const Seccion1 = () => {
-    const home = {
-        marginTop: '60px',
-        color: 'white',
-        width: '100vw',
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundImage:equipo
-        ,
-    }
-
+const Seccion1 = () => {    
   return (
     <Grid container>
       <Grid item xs={12}>

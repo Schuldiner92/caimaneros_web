@@ -13,7 +13,7 @@ const Estilos = {
     left: 0,
     right: 0,
     height: '350px', 
-    backgroundColor: '#1f45ca',
+    backgroundColor: '#1739a4',
     zIndex: 1, 
   },
   fondoAmarillo: {
@@ -22,7 +22,7 @@ const Estilos = {
     left: 0,
     right: 0,
     height: '350px', 
-    backgroundColor: '#f7d905',
+    backgroundColor: '#f7e86d',
     zIndex: 1,
   },
   subcontenedor: {
@@ -54,9 +54,9 @@ const Estilos = {
 };
 const Seccion3 = () => {
     return (
-        <Box sx={Estilos.contenedorPrincipal}>      
+      <Box sx={Estilos.contenedorPrincipal}>      
         <Box sx={Estilos.fondoAzul} />
-            <Box sx={Estilos.fondoAmarillo} />      
+          <Box sx={Estilos.fondoAmarillo} />      
         <Grid container spacing={2} sx={Estilos.subcontenedor}>        
             <Grid item xs={12} md={6}>
                 <Paper elevation={0} sx={Estilos.texto}>
@@ -80,7 +80,7 @@ const Seccion3 = () => {
             </Paper>
             </Grid>
         </Grid>
-        </Box>
+      </Box>
     );
   };
   
