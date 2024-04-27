@@ -81,7 +81,7 @@ const Seccion4 = () => {
 };
 function Item(props) {
     return (
-        <Paper style={Estilos.item}>
+        <Paper elevation={0} style={Estilos.item}>
             <img src={props.item.img} alt="" style={Estilos.img} />
         </Paper>
     );
