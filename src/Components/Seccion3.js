@@ -1,5 +1,6 @@
 import { React, Box, Grid, Paper, Typography } from '../imports';
 import placeholder from '../img/s3-placeholder.jpg';
+import background from '../img/s3-background.png';
 
 const Estilos = {
   contenedorPrincipal: {
@@ -7,24 +8,17 @@ const Estilos = {
     height: '700px',
     overflow: 'hidden', 
   },
-  fondoAzul: {
+  fondoConImagen: {
     position: 'absolute', 
     top: 0,
     left: 0,
     right: 0,
-    height: '350px', 
-    backgroundColor: '#1739a4',
-    zIndex: 1, 
-  },
-  fondoAmarillo: {
-    position: 'absolute', 
-    bottom: 0,
-    left: 0,
-    right: 0,
-    height: '350px', 
-    backgroundColor: '#f7e86d',
-    zIndex: 1,
-  },
+    bottom: 0, 
+    backgroundImage: `url(${background})`,
+    backgroundSize: 'cover', 
+    backgroundPosition: 'center',     
+    zIndex: 1,    
+  }, 
   subcontenedor: {
     display: 'flex', 
     alignItems: 'center', 
@@ -37,50 +31,50 @@ const Estilos = {
     zIndex: 2,
   },
   texto: {    
-    padding: '16px',    
-    color:'white',
+    fontWeight: 'bold',
+    padding: '6px',    
+    color: 'white',
     backgroundColor: 'transparent',
   },
   imagen: {
     display: 'block', 
-    objectFit: 'contain', 
-    width: '90%', 
-    height: '90%', 
-    borderRadius: '30px',
+    objectFit: 'cover', 
+    width: '60%',     
+    borderRadius: '50px',
     overflow: 'hidden',
-    backgroundColor: 'transparent',
-    margin: 'auto'      
+    backgroundColor: 'transparent',       
+      
   },
 };
 const Seccion3 = () => {
     return (
       <Box sx={Estilos.contenedorPrincipal}>      
-        <Box sx={Estilos.fondoAzul} />
-          <Box sx={Estilos.fondoAmarillo} />      
+        <Box sx={Estilos.fondoConImagen} />               
         <Grid container spacing={2} sx={Estilos.subcontenedor}>        
             <Grid item xs={12} md={6}>
-                <Paper elevation={0} sx={Estilos.texto}>
-                    <Typography variant="h3" component="p">
+                <Paper elevation={0} sx={{backgroundColor:'transparent'}}>
+                    <Typography variant="h3" component="p" sx={Estilos.texto}>
                     ¡Nuestra misión es 
                     </Typography>     
-                    <Typography variant="h3" component="p">
+                    <Typography variant="h3" component="p" sx={Estilos.texto}>
                     cultivar el desarrollo
                     </Typography>
-                    <Typography variant="h3" component="p">
+                    <Typography variant="h3" component="p" sx={Estilos.texto}>
                     deportivo y personal de 
                     </Typography>
-                    <Typography variant="h3" component="p">
+                    <Typography variant="h3" component="p" sx={Estilos.texto}>
                     jóvenes atletas!
                     </Typography>       
                 </Paper>
             </Grid>        
             <Grid item xs={12} md={6}>
-            <Paper elevation={0} sx={Estilos.imagen}>
-            <img src={placeholder} alt="Equipo de Volleyball" sx={Estilos.imagen} />
-            </Paper>
+              <Paper elevation={0} sx={Estilos.imagen}>
+                <img src={placeholder} alt="Equipo de Volleyball" sx={Estilos.imagen} />
+              </Paper>
             </Grid>
-        </Grid>
+        </Grid>             
       </Box>
+      
     );
   };
   

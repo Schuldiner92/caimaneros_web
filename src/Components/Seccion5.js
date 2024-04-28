@@ -4,7 +4,7 @@ import mapa from '../img/s5-mapa.png';
 const Estilos = {
     textoTitulo: {        
         fontWeight: 'bold',
-        color:'#1739a4',       
+        color:'#224BB6',       
         marginTop:'100px',
         marginBottom:'60px',
         justifyContent: 'center',  
@@ -27,7 +27,7 @@ const Estilos = {
     },
     textoHoras:{
         fontWeight: 'bold',
-        color:'#1739a4',      
+        color:'#224BB6',      
         marginBottom:'100px',
     },
 

@@ -28,11 +28,12 @@ const Estilos = {
         width: '120px',
         backgroundColor: 'white',                 
     },
-    textoTitulo: {
+    textoTitulo: {        
         fontWeight: 'bold',
-        color:'#1739a4',
+        color:'#224BB6',
         marginLeft: '30px', 
         marginRight: '30px', 
+        marginBottom: '40px'
     },
     carrusel: {        
         diplay:'flex',      
@@ -63,7 +64,8 @@ const Seccion4 = () => {
         { img: img5 },
     ];
     return (
-        <Box sx={Estilos.contenedorPrincipal}>            
+        <Box sx={Estilos.contenedorPrincipal}>    
+            <Box sx={{padding:'40px'}} ></Box>          
             <Box sx={Estilos.titulo}>                
                 <Box sx={Estilos.linea} />                            
                 <Typography variant="h3" sx={Estilos.textoTitulo}>TORNEOS</Typography>                           
@@ -76,6 +78,7 @@ const Seccion4 = () => {
                     ))}
                 </Carousel>               
             </Paper>
+            <Box sx={{padding:'40px'}} ></Box>
         </Box>
     );
 };

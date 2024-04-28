@@ -11,7 +11,7 @@ const Estilos = {
         justifyContent: 'center',  
     },   
     icons:{
-        color: '#1976d2', 
+        color: '#224BB6', 
         fontSize: '4rem'
     }, 
     inputProps:{

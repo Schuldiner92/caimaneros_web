@@ -5,6 +5,7 @@ import Carousel from 'react-material-ui-carousel';
 import IconUser from '@mui/icons-material/AccountCircleRounded';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import StarIcon from '@mui/icons-material/Star';
 
 export {
   React,
@@ -17,7 +18,7 @@ export {
   Paper,
   AppBar, 
   Toolbar, 
-  IconUser, PsychologyAltIcon, KeyboardArrowDownIcon, 
+  IconUser, PsychologyAltIcon, KeyboardArrowDownIcon, StarIcon,
   Avatar,
   Container,
   styled,
