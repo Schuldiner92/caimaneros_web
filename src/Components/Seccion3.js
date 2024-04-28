@@ -76,7 +76,7 @@ const Seccion3 = () => {
             </Grid>        
             <Grid item xs={12} md={6}>
             <Paper elevation={0} sx={Estilos.imagen}>
-            <img src={placeholder} alt="Equipo de Volleyball" style={Estilos.imagen} />
+            <img src={placeholder} alt="Equipo de Volleyball" sx={Estilos.imagen} />
             </Paper>
             </Grid>
         </Grid>

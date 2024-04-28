@@ -63,13 +63,13 @@ const Seccion4 = () => {
         { img: img5 },
     ];
     return (
-        <Box style={Estilos.contenedorPrincipal}>            
-            <Box style={Estilos.titulo}>                
-                <Box style={Estilos.linea} />                            
-                <Typography variant="h3" style={Estilos.textoTitulo}>TORNEOS</Typography>                           
-                <Box style={Estilos.linea} />
+        <Box sx={Estilos.contenedorPrincipal}>            
+            <Box sx={Estilos.titulo}>                
+                <Box sx={Estilos.linea} />                            
+                <Typography variant="h3" sx={Estilos.textoTitulo}>TORNEOS</Typography>                           
+                <Box sx={Estilos.linea} />
             </Box>            
-            <Paper container elevation={0} style={Estilos.carrusel}>
+            <Paper container elevation={0} sx={Estilos.carrusel}>
                 <Carousel>
                     {items.map((item, i) => (
                         <Item key={i} item={item} />
@@ -81,8 +81,8 @@ const Seccion4 = () => {
 };
 function Item(props) {
     return (
-        <Paper elevation={0} style={Estilos.item}>
-            <img src={props.item.img} alt="" style={Estilos.img} />
+        <Paper elevation={0} sx={Estilos.item}>
+            <img src={props.item.img} alt="" sx={Estilos.img} />
         </Paper>
     );
 }

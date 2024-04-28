@@ -1,8 +1,10 @@
 import React from 'react';
 import { Box, Card, CardContent, CardMedia, Grid, Typography, Paper,
-         AppBar, Toolbar, Avatar, Container, styled  } from '@mui/material';
+         AppBar, Toolbar, Avatar, Container, styled, TextField, InputAdornment  } from '@mui/material';
+import Carousel from 'react-material-ui-carousel';         
 import IconUser from '@mui/icons-material/AccountCircleRounded';
-import Carousel from 'react-material-ui-carousel';
+import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 export {
   React,
@@ -12,11 +14,14 @@ export {
   CardMedia,
   Grid,
   Typography,
-  Paper, AppBar, 
+  Paper,
+  AppBar, 
   Toolbar, 
-  IconUser,
+  IconUser, PsychologyAltIcon, KeyboardArrowDownIcon, 
   Avatar,
   Container,
   styled,
   Carousel,
+  TextField,
+  InputAdornment,
 };
