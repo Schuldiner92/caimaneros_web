@@ -28,10 +28,10 @@ const StyledBox = styled(Box)(({ theme }) => ({
 }));
 const StyledButton = styled(Button)({
   background:'#224BB6',  
-  borderRadius:'30px',
-  height:'60px',
-  width:'300px',
-  fontSize:'1.2rem',
+  borderRadius:'40px',
+  height:'78px',
+  width:'390px',
+  fontSize:'1.6rem',
   fontWeight:'bold'
 });
 function ButtonWithIcon({children}) { //Botón con icono
