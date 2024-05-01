@@ -1,5 +1,5 @@
-import { React, Paper, Grid, Typography, styled, Box } from '../imports';
-import equipo from '../img/s1-equipo.jpg'; 
+import { React, Paper, Grid, Typography, styled, Box } from '../../imports';
+import equipo from '../../img/s1-equipo.jpg'; 
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
   position: 'relative', // Necesario para posicionar el pseudo-elemento

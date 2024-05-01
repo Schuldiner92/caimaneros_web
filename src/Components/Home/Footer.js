@@ -1,5 +1,6 @@
-import { React, Box} from '../imports';
+import { React, Box} from '../../imports';
 import Icon from '../img/simbolo.jpg';
+
 
 const Footer = () => {   
     return (

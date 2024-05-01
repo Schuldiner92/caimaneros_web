@@ -1,6 +1,6 @@
-import { React, Box, Paper, Grid, Typography, styled, StarIcon,Button,SportsVolleyballIcon } from '../imports';
-import perfil from '../img/s7-perfil.png';
-import background from '../img/s8-background.png';
+import { React, Box, Paper, Grid, Typography, styled, StarIcon,Button,SportsVolleyballIcon } from '../../imports';
+import perfil from '../../img/s7-perfil.png';
+import background from '../../img/s8-background.png';
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
   display: 'flex',

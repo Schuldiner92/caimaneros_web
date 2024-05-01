@@ -1,5 +1,5 @@
-import { React, Box, Paper, Grid, Typography } from '../imports'
-import mapa from '../img/s5-mapa.png';
+import { React, Box, Paper, Grid, Typography } from '../../imports'
+import mapa from '../../img/s5-mapa.png';
 
 const Estilos = {
     textoTitulo: {        

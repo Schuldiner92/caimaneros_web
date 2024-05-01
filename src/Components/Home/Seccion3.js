@@ -1,6 +1,6 @@
-import { React, Box, Grid, Paper, Typography } from '../imports';
-import placeholder from '../img/s3-placeholder.jpg';
-import background from '../img/s3-background.png';
+import { React, Box, Grid, Paper, Typography } from '../../imports';
+import placeholder from '../../img/s3-placeholder.jpg';
+import background from '../../img/s3-background.png';
 
 const Estilos = {
   contenedorPrincipal: {

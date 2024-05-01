@@ -1,5 +1,5 @@
-import { React, Typography, AppBar, Toolbar, IconUser, Avatar} from '../imports';
-import Icon from '../img/simbolo.jpg';
+import { React, Typography, AppBar, Toolbar, IconUser, Avatar} from '../../imports';
+import Icon from '../../img/simbolo.jpg';
 
 const Estilos = {
     wid: {
@@ -17,7 +17,7 @@ const Estilos = {
         color: '#000'
     }
 };
-const Home = () => {   
+const Menu = () => {   
     return (
         <AppBar>
             <Toolbar style={Estilos.enc}>
@@ -30,4 +30,4 @@ const Home = () => {
         </AppBar>
   );
 }
-export default Home;
+export default Menu;

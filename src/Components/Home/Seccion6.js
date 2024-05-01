@@ -1,4 +1,4 @@
-import { React, Box, Typography, TextField, InputAdornment, PsychologyAltIcon, KeyboardArrowDownIcon } from '../imports'
+import { React, Box, Typography, TextField, InputAdornment, PsychologyAltIcon, KeyboardArrowDownIcon } from '../../imports'
 
 const Estilos = {
     fondo:{               

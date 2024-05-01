@@ -1,9 +1,9 @@
-import { React, Box, Typography, Carousel, Paper } from '../imports'
-import img1 from '../img/s4-img1.png'
-import img2 from '../img/s4-img2.jpg'
-import img3 from '../img/s4-img3.jpg'
-import img4 from '../img/s4-img4.png'
-import img5 from '../img/s4-img5.jpg'
+import { React, Box, Typography, Carousel, Paper } from '../../imports'
+import img1 from '../../img/s4-img1.png'
+import img2 from '../../img/s4-img2.jpg'
+import img3 from '../../img/s4-img3.jpg'
+import img4 from '../../img/s4-img4.png'
+import img5 from '../../img/s4-img5.jpg'
 
 const Estilos = {
     contenedorPrincipal: {        

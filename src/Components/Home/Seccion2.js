@@ -1,6 +1,6 @@
-import { React, Box, Paper, Grid, Typography } from '../imports'
-import placeholder from '../img/s2-placeholder.png';
-import ball from '../img/s2-ball.png';
+import { React, Box, Paper, Grid, Typography } from '../../imports'
+import placeholder from '../../img/s2-placeholder.png';
+import ball from '../../img/s2-ball.png';
 
 const Estilos = {
     imagen: {
