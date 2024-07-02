@@ -1,4 +1,4 @@
-Ejecutar proyecto:
+## Ejecutar proyecto:
 
 ### `npm run dev`
 
