@@ -9,7 +9,7 @@
 En calendario entrenamiento las fechas de prueba están en el 7,14,21 y 28 de Junio 2024
 
 
-# React + Vite
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
