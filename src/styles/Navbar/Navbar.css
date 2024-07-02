@@ -1,0 +1,32 @@
+.barra {
+  height: 100px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07),
+  0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  color: #ffffff;
+  background-color: #1b4dcc;
+}
+
+.menus {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 10px;
+  padding-left: 180px;
+  height: 100px;
+  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+  }
+}
+
+.logo {
+  position: static;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 70px;
+  margin: 10px;
+}
+

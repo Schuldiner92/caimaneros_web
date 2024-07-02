@@ -1,0 +1,34 @@
+.arrow::after {
+    content: "";
+    display: inline-block;
+    margin-left: 0.28em;
+    vertical-align: 0.09em;
+    border-top: 0.42em solid;
+    border-right: 0.32em solid transparent;
+    border-left: 0.32em solid transparent;
+}
+
+.dropdown {
+    position: fixed;
+    left: auto;
+    box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+        0 4px 6px -2px rgba(71, 63, 79, 0.16);
+    font-size: 0.875rem;
+    z-index: 9999;
+    padding: 0.8rem 3rem 0.8rem 0.8rem; /* Modificar el padding horizontal */
+    list-style: none;
+    background-color: rgb(241, 241, 7);
+    border-radius: 1.5rem;
+    display: none;
+    width: 250px;
+    align-items: center;
+}
+
+.dropdown.show {
+    display: block;
+}
+
+.dropdown.dropdown-submenu {
+    position: absolute;
+    top: -7px;
+}
