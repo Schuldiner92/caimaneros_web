@@ -4,7 +4,7 @@
 ## Otras Rutas
 ### `/indexEntrenamiento`
 ### `/calendarioEntrenamiento`
-En calendario entrenamiento las fechas de prueba están en el 7,14,21 y 28 de Junio 2024
+En "CalendarioEntrenamiento" las fechas de prueba están en el 7,14,21 y 28 de Junio 2024
 
 ## React + Vite
 
